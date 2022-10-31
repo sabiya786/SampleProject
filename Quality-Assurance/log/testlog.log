@@ -52,3 +52,12 @@
 2022-10-29 08:52:23,393 - Demo Project -INFO - Testcase execution done successfully
 2022-10-29 08:52:23,395 - Demo Project -INFO - close the browser
 2022-10-29 08:52:23,397 - Demo Project -INFO - Framework execution stop
+2022-10-31 09:32:25,330 - Demo Project -INFO - Framework execution start
+2022-10-31 09:32:45,544 - Demo Project -INFO - Edge Browser is ready for automation
+2022-10-31 09:32:45,766 - Demo Project -INFO - Browser window maximize
+2022-10-31 09:32:50,412 - Demo Project -INFO - UniCreds application open successfully
+2022-10-31 09:32:50,420 - Demo Project -INFO - UniCreds web application is ready for automation
+2022-10-31 09:32:50,444 - Demo Project -INFO - Test case execution start
+2022-10-31 09:32:51,147 - Demo Project -INFO - Testcase execution done successfully
+2022-10-31 09:32:51,148 - Demo Project -INFO - close the browser
+2022-10-31 09:32:51,152 - Demo Project -INFO - Framework execution stop

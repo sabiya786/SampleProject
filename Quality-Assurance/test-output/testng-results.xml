@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-29T08:52:02 IST" name="RegressionSuite" finished-at="2022-10-29T08:52:23 IST" duration-ms="21080">
+  <suite started-at="2022-10-31T09:32:25 IST" name="RegressionSuite" finished-at="2022-10-31T09:32:51 IST" duration-ms="25949">
     <groups>
     </groups>
-    <test started-at="2022-10-29T08:52:02 IST" name="RegressionTest" finished-at="2022-10-29T08:52:23 IST" duration-ms="21080">
+    <test started-at="2022-10-31T09:32:25 IST" name="RegressionTest" finished-at="2022-10-31T09:32:51 IST" duration-ms="25949">
       <class name="com.qa.testLayer.Contact_usPageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-29T08:52:02 IST" name="start" finished-at="2022-10-29T08:52:02 IST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-31T09:32:25 IST" name="start" finished-at="2022-10-31T09:32:25 IST" duration-ms="116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-29T08:52:02 IST" name="setUp" finished-at="2022-10-29T08:52:21 IST" duration-ms="19106" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-31T09:32:25 IST" name="setUp" finished-at="2022-10-31T09:32:50 IST" duration-ms="25095" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyContactusPageFunctionality()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-29T08:52:21 IST" name="verifyContactusPageFunctionality" finished-at="2022-10-29T08:52:23 IST" duration-ms="1834" status="PASS">
+        <test-method signature="verifyContactusPageFunctionality()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-31T09:32:50 IST" name="verifyContactusPageFunctionality" finished-at="2022-10-31T09:32:51 IST" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactusPageFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-29T08:52:23 IST" name="tearDown" finished-at="2022-10-29T08:52:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-31T09:32:51 IST" name="tearDown" finished-at="2022-10-31T09:32:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stop()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-29T08:52:23 IST" name="stop" finished-at="2022-10-29T08:52:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.qa.testLayer.Contact_usPageTest@2d7275fc]" started-at="2022-10-31T09:32:51 IST" name="stop" finished-at="2022-10-31T09:32:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stop -->

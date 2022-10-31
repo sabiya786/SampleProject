@@ -15,7 +15,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.qa.pageLayer.Contact_usPage;
-import com.qa.pageLayer.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -24,7 +23,6 @@ public class TestBase
 	public static WebDriver driver;
 	public static Logger logger;
 	public Contact_usPage contact;
-	public LoginPage login;
 
 	@BeforeClass
 	public void start()
@@ -78,7 +76,6 @@ public class TestBase
 		logger.info("UniCreds web application is ready for automation");
 
 		contact = new Contact_usPage();
-		login = new LoginPage();
 
 	}
 
@@ -86,7 +83,7 @@ public class TestBase
 	@AfterMethod
 	public void tearDown()
 	{
-		//driver.close();
+		driver.close();
 		logger.info("close the browser");
 	}
 
