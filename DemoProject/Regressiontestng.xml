@@ -3,17 +3,17 @@
 <suite name="RegressionSuite">
 
 	<listeners>
-		<listener class-name="com.qa.utility.Listerners" />
-		<listener class-name="com.qa.utility.ExtentReporterNG" />
+		<listener class-name="com.qa.utility.Listerners"></listener>
+		<listener class-name="com.qa.utility.ExtentReporterNG"></listener>
 	</listeners>
 
 	<parameter name="Browser" value="Edge"></parameter>
-
+	
 	<test thread-count="5" name="RegressionTest">
 		<classes>
+			<class name="com.qa.testLayer.ExchangePageTest" />
 			<class name="com.qa.testLayer.LoginPageTest" />
 			<class name="com.qa.testLayer.DashboardPageTest" />
-			<class name="com.qa.testLayer.ExchangePageTest" />
 		</classes>
 	</test> <!-- RegressionTest -->
 </suite> <!-- RegressionSuite -->

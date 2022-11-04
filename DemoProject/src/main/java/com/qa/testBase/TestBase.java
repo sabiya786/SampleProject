@@ -17,6 +17,7 @@ import org.testng.annotations.Parameters;
 import com.qa.pageLayer.DashboardPage;
 import com.qa.pageLayer.ExchangePage;
 import com.qa.pageLayer.LoginPage;
+import com.qa.pageLayer.Purches;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -27,6 +28,7 @@ public class TestBase
 	public LoginPage login;
 	public DashboardPage dashboard;
 	public ExchangePage exchange;
+	public Purches purches;
 
 	@BeforeClass
 	public void start()
@@ -74,6 +76,7 @@ public class TestBase
 
 		driver.manage().deleteAllCookies();
 		driver.get("https://www.apps.dalalstreet.ai/login");
+		//driver.get("https://blazedemo.com/index.php");
 		logger.info("Dalastreet application open successfully");
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -82,13 +85,14 @@ public class TestBase
 		login = new LoginPage();
 		dashboard = new DashboardPage();
 		exchange = new ExchangePage();
+		purches = new Purches();
 	}
 
 
 	@AfterMethod
 	public void tearDown()
 	{
-		driver.close();
+	//	driver.close();
 		logger.info("close the browser");
 	}
 

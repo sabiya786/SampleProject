@@ -8,15 +8,15 @@
   </listeners>
   <test thread-count="5" name="RegressionTest(failed)">
     <classes>
-      <class name="com.qa.testLayer.ExchangePageTest">
+      <class name="com.qa.testLayer.PurchesTest">
         <methods>
           <include name="tearDown"/>
           <include name="start"/>
           <include name="setUp"/>
-          <include name="verifyExchangePageFunctionality"/>
+          <include name="check"/>
           <include name="stop"/>
         </methods>
-      </class> <!-- com.qa.testLayer.ExchangePageTest -->
+      </class> <!-- com.qa.testLayer.PurchesTest -->
     </classes>
   </test> <!-- RegressionTest(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->
