@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="Browser" value="Edge"/>
+  <listeners>
+    <listener class-name="com.qa.utility.Listerners"/>
+    <listener class-name="com.qa.utility.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="com.qa.testLayer.Contact_usPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+          <include name="verifyContactusPageFunctionality"/>
+          <include name="setUp"/>
+          <include name="stop"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.Contact_usPageTest -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
